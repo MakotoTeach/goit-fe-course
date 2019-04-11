@@ -37,21 +37,26 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   color: #555252;
-  
+  float: left;
+}
+.site-logo::first-letter{
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  color: #1abc9c;
 }
 .site-navigation {
-  width: 475px;
-  background-color: #1abc9c;
+  width: 476px;
   list-style: none;
   margin: 0;
   padding: 0;
   margin-top: 6px;
   padding: 0;
   float: right;
+  letter-spacing: -0.02em;
   
 }
 .site-navigation li {
-  margin-right: 30px;
+  margin-right: 25px;
   float: left;
 }
 .site-navigation li:last-child {
@@ -65,7 +70,6 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   color: #0f0101;
-  letter-spacing: -0.01em;
 }
 .site-navigation a:hover {
   color: #1abc9c;
@@ -79,35 +83,72 @@ body {
 .products-title {
   font-family: "Roboto", sans-serif;
   font-size: 48px;
-  font-weight: 900;
+  font-weight: 800;
   line-height: 58px;
   text-align: center;
   margin-bottom: 130px;
   text-transform: uppercase;
+  letter-spacing: -0.02em;
 }
 
 .products-list {
   list-style: none;
   margin: 0;
   padding: 0;
+  margin-bottom: 100px;
 }
-
+.products-list-image{
+  display: block;
+}
 .products-list-item {
   width: 254px;
   margin-right: 30px;
   float: left;
+  margin-bottom: 40px;
 }
 .products-list-item:nth-child(4n + 4){
   margin-right: 0px;
 }
+.products-list-item:hover .product-name{
+background-color: #4ec6ab;
+}
+  .products-list-item:hover .product-price{
+    background-color: #7fd9c7;
+  }
+
 
 .product-name,
 .product-price {
+  color: white;
   font-size: 18px;
   line-height: 32px;
   font-family: "Roboto", sans-serif;
   font-weight: 900;
   letter-spacing: -0.01em;
+}
+.product-price{
+  text-align: center;
+  padding-top: 5px;
+  height: 40px;
+  background-color:#8c8c8c;
+}
+.product-price::before{
+  content: "\0024";
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 600;
+}
+.product-name{
+  height: 40px;
+  width: 200px;
+  background-color: #323232;
+  margin: 0;
+  padding: 0;
+  float: left;
+  padding-left: 14px;
+  text-transform: uppercase;
+  padding-top: 5px;
 }
 .news-title {
   font-family: "Roboto", sans-serif;
@@ -122,31 +163,60 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
-  font-size: 0;
 }
 .news-list-image {
-  margin-bottom: 16px;
+  margin-bottom: 14px;
 }
 .news-list-item{
   width: 350px;
+  margin-right: 30px;
   float: left;
+}
+.news-list-item:nth-child(3n + 3){
+  margin-right: 0px;
 }
 .news-list-item .description {
   font-size: 18px;
   line-height: 26px;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.02em;
 }
 .news-list-item .description-2 {
   font-size: 14px;
   line-height: 26px;
   font-family: "Open Sans", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  margin-bottom: 14px;
 }
 .button {
+  display: block;
+  width: 160px;
+  height: 50px;
+  background-color: #4ec6ab;
+  color: white;
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 26px;
+  border: 1px solid white;
+  border-radius: 4px;
 }
+.card6{
+  width: 254px;
+  height: 282px;
+  background-color: #e9f0fd;
+  background-image: url(/img/product3png.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.card8{
+  width: 254px;
+  height: 282px;
+  background-color: #e9f0fd;
+  background-image: url(/img/product8png.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
