@@ -14,9 +14,9 @@ html {
 *::after {
   box-sizing: inherit;
 }
-body {
+/* body {
   color: #555252;
-}
+} */
 .clearfix::after{
   display: table;
   content: "";
@@ -28,8 +28,8 @@ body {
   margin: 0 auto;
   padding-top: 36px;
   margin-bottom: 100px;
-  height: auto;
-  overflow: hidden;
+  /* height: auto;
+  overflow: hidden; */
 }
 .site-logo {
   font-size: 30px;
@@ -38,7 +38,7 @@ body {
   font-weight: 300;
   text-transform: uppercase;
   color: #555252;
-  float: left;
+  /* float: left; */
 }
 .site-logo::first-letter{
   font-family: "Roboto", sans-serif;
@@ -46,25 +46,26 @@ body {
   color: #1abc9c;
 }
 .site-navigation {
-  width: 476px;
+  width: 475px;
   list-style: none;
   margin: 0;
   padding: 0;
-  margin-top: 6px;
-  padding: 0;
+  background-color: red;
+  /* margin-top: 6px; */
+  /* padding: 0;
   float: right;
   letter-spacing: -0.02em;
-  text-align: right;
+  text-align: right; */
   
 }
-.site-navigation li {
+/* .site-navigation li {
   margin-right: 25px;
 
   float: left;
 }
 .site-navigation li:last-child {
   margin-right: 0px;
-}
+} */
 .site-navigation a {
   font-size: 14px;
   line-height: 17px;
