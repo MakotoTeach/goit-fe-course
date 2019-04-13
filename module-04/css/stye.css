@@ -76,6 +76,37 @@ html {
   margin: 0 auto;
 }
 
+.page__title-wrapper {
+  text-align: center;
+  position: relative;
+  height: 72px;
+}
+
+.page__title {
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  line-height: 58px;
+  font-weight: 800;
+  display: inline-block;
+  margin: auto;
+  /* margin-bottom: 130px; */
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  color: #515151;
+}
+
+.page__title::after {
+  display: block;
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  right: 0;
+  left: 0;
+  width: 165px;
+  height: 7px;
+  background: #7fd9c7;
+  margin: auto;
+}
 
 .products-title {
   font-family: "Roboto", sans-serif;
