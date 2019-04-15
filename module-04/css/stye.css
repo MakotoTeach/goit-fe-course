@@ -62,6 +62,7 @@ html {
   text-transform: uppercase;
   text-decoration: none;
   color: #0f0101;
+  transition: .4s linear;
 }
 .site-navigation a:hover {
   color: #1abc9c;
@@ -85,7 +86,6 @@ html {
   font-weight: 800;
   display: inline-block;
   margin: auto;
-  /* margin-bottom: 130px; */
   text-transform: uppercase;
   letter-spacing: -0.02em;
   color: #515151;
@@ -180,6 +180,7 @@ html {
 .container-news {
   width: 1110px;
   margin: 0 auto;
+  padding-bottom: 82px;
 }
 .news-title {
   font-family: "Roboto", sans-serif;
@@ -207,7 +208,7 @@ html {
 .news-list-item:nth-child(3n + 3) {
   margin-right: 0px;
 }
-.news-list-item .description {
+.news-list-item .news-article {
   position: relative;
   font-size: 18px;
   line-height: 26px;
@@ -215,9 +216,10 @@ html {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   letter-spacing: -0.02em;
+  margin-bottom: 38px;
 }
 
-.description::after {
+.news-article::after {
   display: block;
   content: "";
   position: absolute;
@@ -227,9 +229,9 @@ html {
   width: 135px;
   height: 3px;
   background: #7fd9c7;
-  margin: auto;
+  text-align: left;
 }
-.news-list-item .description-2 {
+.news-list-item .news-description {
   font-size: 14px;
   line-height: 26px;
   color: #555252;
