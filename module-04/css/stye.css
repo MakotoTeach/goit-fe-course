@@ -67,6 +67,9 @@ html {
 .site-navigation a:hover {
   color: #1abc9c;
 }
+.products{
+  padding-bottom: 100px;
+}
 .container-products {
   width: 1110px;
   margin: 0 auto;
@@ -77,6 +80,7 @@ html {
   text-align: center;
   position: relative;
   height: 72px;
+  margin-bottom: 130px;
 }
 
 .page__title {
@@ -93,18 +97,14 @@ html {
 
 .page__title::after {
   display: block;
-  content: "";
-  position: absolute;
-  bottom: -30px;
-  right: 0;
-  left: 0;
+  content: "";  
   width: 165px;
   height: 7px;
-  background: #7fd9c7;
-  margin: auto;
+  background-color: #7fd9c7;
+  margin: 76px auto;
 }
 
-.products-title {
+/* .products-title {
   font-family: "Roboto", sans-serif;
   font-size: 48px;
   font-weight: 800;
@@ -113,14 +113,14 @@ html {
   margin-bottom: 130px;
   text-transform: uppercase;
   letter-spacing: -0.02em;
-}
+} */
 
 .products-list {
   list-style: none;
   margin: 0;
   padding: 0;
-  padding-top: 130px;
-  padding-bottom: 100px;
+  /* padding-top: 130px; */
+  /* padding-bottom: 100px; */
 }
 .products-list-image {
   display: block;
@@ -177,10 +177,13 @@ html {
   text-transform: uppercase;
   padding-top: 5px;
 }
+.news{
+  padding-bottom: 82px;
+}
 .container-news {
   width: 1110px;
   margin: 0 auto;
-  padding-bottom: 82px;
+  /* padding-bottom: 82px; */
 }
 .news-title {
   font-family: "Roboto", sans-serif;
@@ -195,7 +198,7 @@ html {
   list-style: none;
   margin: 0;
   padding: 0;
-  padding-top: 120px;
+  /* padding-top: 120px; */
 }
 .news-list-image {
   margin-bottom: 14px;
@@ -209,7 +212,6 @@ html {
   margin-right: 0px;
 }
 .news-list-item .news-article {
-  position: relative;
   font-size: 18px;
   line-height: 26px;
   color: #555252;
@@ -222,14 +224,11 @@ html {
 .news-article::after {
   display: block;
   content: "";
-  position: absolute;
-  bottom: -15px;
-  right: 0;
-  left: 0;
   width: 135px;
   height: 3px;
   background: #7fd9c7;
-  text-align: left;
+  margin: 12px auto;
+  margin-left: 0;
 }
 .news-list-item .news-description {
   font-size: 14px;
@@ -252,9 +251,9 @@ html {
   line-height: 26px;
   border: 1px solid white;
   border-radius: 4px;
-  transition: 3s;
+  transition: 2s;
 }
-.news-list-item:hover .button{
+.button:hover{
   transform: scale(1.2);
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
