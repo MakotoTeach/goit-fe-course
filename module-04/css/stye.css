@@ -252,4 +252,10 @@ html {
   line-height: 26px;
   border: 1px solid white;
   border-radius: 4px;
+  transition: 3s;
+}
+.news-list-item:hover .button{
+  transform: scale(1.2);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
 }
