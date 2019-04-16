@@ -228,8 +228,9 @@ html {
   width: 135px;
   height: 3px;
   background: #7fd9c7;
-  margin: 12px auto;
+  margin: 0 auto;
   margin-left: 0;
+  margin-top: 12px;
 }
 .news-list-item .news-description {
   font-size: 14px;
