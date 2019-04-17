@@ -62,12 +62,12 @@ html {
   text-transform: uppercase;
   text-decoration: none;
   color: #0f0101;
-  transition: .4s linear;
+  transition: 0.4s linear;
 }
 .site-navigation a:hover {
   color: #1abc9c;
 }
-.products{
+.products {
   padding-bottom: 100px;
 }
 .container-products {
@@ -98,16 +98,16 @@ html {
 .page__title::after {
   display: block;
   position: absolute;
-  content: "";  
+  content: "";
   width: 165px;
   height: 7px;
   background-color: #7fd9c7;
   margin: 28px auto;
   left: 100px;
 }
-.card-content{
+/* .card-content{
   position: relative;
-}
+} */
 .products-list {
   list-style: none;
   margin: 0;
@@ -121,7 +121,7 @@ html {
   margin-right: 30px;
   float: left;
   margin-bottom: 40px;
-  /* position: relative; */
+  position: relative;
 }
 .products-list-item:nth-child(4n + 4) {
   margin-right: 0px;
@@ -135,27 +135,31 @@ html {
 .products-list-item:hover .product-price {
   background-color: #7fd9c7;
 }
-.products-list-item:hover .overlay{
+.products-list-item:hover .overlay {
   opacity: 0.549;
   /* opacity: 1; */
 }
-.product-icons-list{
+.product-icons-list {
+  text-align: center;
+  position: absolute;
   list-style: none;
+  font-size: 0;
   margin: 0;
   padding: 0;
-  font-size: 0;
   width: 100%;
-  position: absolute;
-  top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); 
+  transform: translateX(-50%);
+  top: 78px;
 }
-.product-icons-list li{
+.product-icons-list li {
   display: inline-block;
-  margin: 8px;
+  margin-right: 8px;
+}
+.product-icons-list li:last-child {
+  margin-right: 0px;
 }
 
-.product-icons-list button{
+.product-icons-list button {
   display: block;
   width: 50px;
   height: 50px;
@@ -165,17 +169,17 @@ html {
   padding: 0;
   background-position: center;
   background-repeat: no-repeat;
-} 
-.icon-button-like{
+}
+.icon-button-like {
   background-image: url(/img/like-icon.png);
 }
-.icon-button-copy{
+.icon-button-copy {
   background-image: url(/img/copy-icon.png);
 }
-.icon-button-clock{
+.icon-button-clock {
   background-image: url(/img/clock-icon.png);
 }
-.overlay{
+.overlay {
   position: absolute;
   width: 235px;
   height: 260px;
@@ -184,16 +188,16 @@ html {
   left: 11px;
   opacity: 0;
 }
-.add-to-card{
-  /* position: absolute; */
-  display: inline-block;
+.button-add {
+  position: absolute;
+  display: block;
   width: 166px;
   height: 50px;
   border: 1px solid rgb(255, 255, 255);
   background-color: #323232;
-  opacity: 1;
-  bottom: 0;
-  left: 0;
+  bottom: 74px;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 .product-name,
@@ -204,7 +208,7 @@ html {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
   letter-spacing: -0.01em;
-  transition: .5s linear;
+  transition: 0.5s linear;
 }
 .product-price {
   text-align: center;
@@ -230,8 +234,3 @@ html {
   text-transform: uppercase;
   padding-top: 5px;
 }
-
-
-
-
-
