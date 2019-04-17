@@ -79,8 +79,20 @@ html {
 .page__title-wrapper {
   text-align: center;
   position: relative;
-  height: 72px;
-  margin-bottom: 130px;
+  padding-bottom: 130px;
+
+}
+
+.page__title-wrapper::after {
+  position: absolute;
+  content: "";  
+  width: 165px;
+  height: 7px;
+  background-color: #7fd9c7;
+  right: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 26px;
 }
 
 .page__title {
@@ -88,21 +100,24 @@ html {
   font-size: 48px;
   line-height: 58px;
   font-weight: 800;
-  display: inline-block;
+  position: relative;
   margin: auto;
   text-transform: uppercase;
   letter-spacing: -0.02em;
   color: #515151;
 }
 
-.page__title::after {
-  display: block;
+/* .page__title::after {
+  position: absolute;
   content: "";  
   width: 165px;
   height: 7px;
   background-color: #7fd9c7;
-  margin: 76px auto;
-}
+  right: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+} */
 
 .products-list {
   list-style: none;
@@ -139,6 +154,7 @@ html {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
   letter-spacing: -0.01em;
+  transition: .5s linear;
 }
 .product-price {
   text-align: center;
@@ -212,8 +228,9 @@ html {
   width: 135px;
   height: 3px;
   background: #7fd9c7;
-  margin: 12px auto;
+  margin: 0 auto;
   margin-left: 0;
+  margin-top: 12px;
 }
 .news-list-item .news-description {
   font-size: 14px;
@@ -224,7 +241,11 @@ html {
   letter-spacing: -0.02em;
   margin-bottom: 14px;
 }
+.news-list-item a{
+  text-decoration: none;
+}
 .button {
+  cursor: pointer;
   display: block;
   width: 160px;
   height: 50px;
