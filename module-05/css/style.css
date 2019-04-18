@@ -107,6 +107,7 @@ html {
   list-style: none;
   margin: 0;
   padding: 0;
+  padding-bottom: 100px;
 }
 .products-list-image {
   display: block;
@@ -247,4 +248,25 @@ html {
   padding-left: 14px;
   text-transform: uppercase;
   padding-top: 5px;
+}
+.page-footer{
+  background-color: #323232;
+  height: 88px;
+  position: relative;
+  text-align: center;
+}
+.rights{
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: white;
+  letter-spacing: -0.01em;
+  position: absolute;
+  margin: auto;
+  display: inline-block;
+  top: 36px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.graph{
+  color: #46bfa9;
 }
