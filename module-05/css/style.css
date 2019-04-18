@@ -10,13 +10,11 @@ html {
 *::after {
   box-sizing: inherit;
 }
-
 .clearfix::after {
   display: table;
   content: "";
   clear: both;
 }
-
 .page-header {
   width: 1110px;
   margin: 0 auto;
@@ -67,6 +65,9 @@ html {
 .site-navigation a:hover {
   color: #1abc9c;
 }
+.new-collection{
+  background-color: #e9f0fd;
+}
 .products {
   padding-bottom: 100px;
 }
@@ -75,12 +76,10 @@ html {
   margin: 0 auto;
   padding-top: 100px;
 }
-
 .page__title-wrapper {
   text-align: center;
   position: relative;
 }
-
 .page__title {
   font-family: "Roboto", sans-serif;
   font-size: 48px;
@@ -94,7 +93,6 @@ html {
   color: #515151;
   margin-bottom: 110px;
 }
-
 .page__title::after {
   display: block;
   position: absolute;
@@ -105,9 +103,6 @@ html {
   margin: 28px auto;
   left: 100px;
 }
-/* .card-content{
-  position: relative;
-} */
 .products-list {
   list-style: none;
   margin: 0;
@@ -136,8 +131,16 @@ html {
   background-color: #7fd9c7;
 }
 .products-list-item:hover .overlay {
-  opacity: 0.549;
-  /* opacity: 1; */
+  opacity: 1;
+}
+.overlay {
+  position: absolute;
+  width: 235px;
+  height: 260px;
+  background-color: rgb(0, 0, 0, .55);
+  top: 11px;
+  left: 11px;
+  opacity: 0;
 }
 .product-icons-list {
   text-align: center;
@@ -158,9 +161,9 @@ html {
 .product-icons-list li:last-child {
   margin-right: 0px;
 }
-
 .product-icons-list button {
   display: block;
+  cursor: pointer;
   width: 50px;
   height: 50px;
   border: 1px solid rgb(255, 255, 255);
@@ -169,6 +172,9 @@ html {
   padding: 0;
   background-position: center;
   background-repeat: no-repeat;
+}
+.product-icons-list button:hover{
+  background-color: #1abc9c;
 }
 .icon-button-like {
   background-image: url(/img/like-icon.png);
@@ -179,25 +185,33 @@ html {
 .icon-button-clock {
   background-image: url(/img/clock-icon.png);
 }
-.overlay {
-  position: absolute;
-  width: 235px;
-  height: 260px;
-  background-color: rgb(0, 0, 0);
-  top: 11px;
-  left: 11px;
-  opacity: 0;
-}
 .button-add {
+  cursor: pointer;
   position: absolute;
   display: block;
   width: 166px;
   height: 50px;
+  background-image: url(/img/add-to-card.png);
+  background-repeat: no-repeat;
+  background-position: 10px 10px;
   border: 1px solid rgb(255, 255, 255);
-  background-color: #323232;
+  background-color: rgb(50, 50, 50);
   bottom: 74px;
   left: 50%;
   transform: translate(-50%);
+}
+.button-add:hover{
+  background-color: #1abc9c;
+}
+.button-add span{
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  position: absolute;
+  color: white;
+  top: 16px;
+  left: 60px;
 }
 
 .product-name,
