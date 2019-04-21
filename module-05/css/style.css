@@ -286,7 +286,7 @@ position: relative;
   display: block;
   width: 166px;
   height: 50px;
-  background-image: url(./img/add-to-card.png);
+  background-image: url(../img/add-to-card.png);
   background-repeat: no-repeat;
   background-position: 10px 10px;
   border: 1px solid rgb(255, 255, 255);
