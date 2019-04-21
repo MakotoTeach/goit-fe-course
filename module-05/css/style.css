@@ -118,7 +118,7 @@ position: relative;
 }
 
 .slider-ctrl-prev{
-  background-image: url(/img/arrow-prew.png);
+  background-image: url(../img/arrow-prew.png);
   background-position: center;
   background-repeat: no-repeat;
   left: 245px;
@@ -126,7 +126,7 @@ position: relative;
   transform: translateY(-50%);
 }
 .slider-ctrl-next{
-  background-image: url(/img/arrow-next.png);
+  background-image: url(../img/arrow-next.png);
   background-position: center;
   background-repeat: no-repeat;
   right: 245px;
@@ -272,13 +272,13 @@ position: relative;
   background-color: #1abc9c;
 }
 .icon-button-like {
-  background-image: url(./img/like-icon.png);
+  background-image: url(../img/like-icon.png);
 }
 .icon-button-copy {
-  background-image: url(./img/copy-icon.png);
+  background-image: url(../img/copy-icon.png);
 }
 .icon-button-clock {
-  background-image: url(./img/clock-icon.png);
+  background-image: url(../img/clock-icon.png);
 }
 .button-add {
   cursor: pointer;
