@@ -43,6 +43,7 @@ html {
   margin-top: 8px;
   float: right;
   letter-spacing: -0.02em;
+  margin-bottom: 26px;
 }
 .site-navigation li {
   margin-right: 30px;
@@ -65,8 +66,101 @@ html {
 .site-navigation a:hover {
   color: #1abc9c;
 }
-.new-collection{
+.slider {
+  position: relative;
+  width: 1600px;
+  height: 600px;
+}
+
+.slider-cover{
+  width: 1600px;
+  height: 600px;
+  position: relative;
+}
+.slider-cover:after{
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color:rgb(0, 0, 2, 0.522);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.slides{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.slides-item{
+position: relative;
+}
+.slides img{
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+}
+.slider-ctrl {
+  font-size: 100px;
+  color: white;
+  display: inline-block;
+  border: none;
+  background-color: rgb(78, 198, 171);
+  opacity: 0.651;
+  position: absolute;
+  width: 104px;
+  height: 104px;
+  z-index: 2;
+}
+.slider-ctrl:hover{
+  cursor: pointer;
+  background-color: #1abc9c;
+  opacity: 1;
+}
+
+.slider-ctrl-prev{
+  background-image: url(/img/arrow-prew.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  left: 245px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.slider-ctrl-next{
+  background-image: url(/img/arrow-next.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  right: 245px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.slider-descr{
+  position: absolute;
+  top: 204px;
+  left: 430px;
+  z-index: 1;
+}
+.slider-descr h2{
+  letter-spacing: -0.02em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  line-height: 82px;
+  font-size: 60px;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+.slider-descr p{
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 24px;
+  letter-spacing: -0.02em;
+}
+.new-collection {
   background-color: #e9f0fd;
+  width: 1600px;
+  
 }
 .products {
   padding-bottom: 100px;
@@ -138,7 +232,7 @@ html {
   position: absolute;
   width: 235px;
   height: 260px;
-  background-color: rgb(0, 0, 0, .55);
+  background-color: rgb(0, 0, 0, 0.55);
   top: 11px;
   left: 11px;
   opacity: 0;
@@ -174,7 +268,7 @@ html {
   background-position: center;
   background-repeat: no-repeat;
 }
-.product-icons-list button:hover{
+.product-icons-list button:hover {
   background-color: #1abc9c;
 }
 .icon-button-like {
@@ -201,10 +295,10 @@ html {
   left: 50%;
   transform: translate(-50%);
 }
-.button-add:hover{
+.button-add:hover {
   background-color: #1abc9c;
 }
-.button-add span{
+.button-add span {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   letter-spacing: -0.02em;
@@ -249,13 +343,14 @@ html {
   text-transform: uppercase;
   padding-top: 5px;
 }
-.page-footer{
+.page-footer {
   background-color: #323232;
   height: 88px;
+  width: 1600px;
   position: relative;
   text-align: center;
 }
-.rights{
+.rights {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   color: white;
@@ -267,6 +362,6 @@ html {
   left: 50%;
   transform: translateX(-50%);
 }
-.graph{
+.graph {
   color: #46bfa9;
 }
