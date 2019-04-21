@@ -272,13 +272,13 @@ position: relative;
   background-color: #1abc9c;
 }
 .icon-button-like {
-  background-image: url(/img/like-icon.png);
+  background-image: url(../img/like-icon.png);
 }
 .icon-button-copy {
-  background-image: url(/img/copy-icon.png);
+  background-image: url(../img/copy-icon.png);
 }
 .icon-button-clock {
-  background-image: url(/img/clock-icon.png);
+  background-image: url(../img/clock-icon.png);
 }
 .button-add {
   cursor: pointer;
@@ -286,7 +286,7 @@ position: relative;
   display: block;
   width: 166px;
   height: 50px;
-  background-image: url(/img/add-to-card.png);
+  background-image: url(../img/add-to-card.png);
   background-repeat: no-repeat;
   background-position: 10px 10px;
   border: 1px solid rgb(255, 255, 255);
