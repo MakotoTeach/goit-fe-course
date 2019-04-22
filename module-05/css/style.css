@@ -24,6 +24,7 @@ html {
   padding-top: 36px;
   height: auto;
   overflow: hidden;
+  padding-bottom: 26px;
 }
 .site-logo {
   display: inline-block;
@@ -46,7 +47,6 @@ html {
   margin-top: 8px;
   float: right;
   letter-spacing: -0.02em;
-  margin-bottom: 26px;
 }
 .site-navigation li {
   margin-right: 30px;
@@ -70,6 +70,7 @@ html {
   color: #1abc9c;
 }
 .slider {
+  margin: auto;
   position: relative;
   width: 1600px;
   height: 600px;
@@ -161,6 +162,7 @@ position: relative;
   letter-spacing: -0.02em;
 }
 .new-collection {
+  margin: auto;
   background-color: #e9f0fd;
   width: 1600px;
   
@@ -360,6 +362,7 @@ position: relative;
   padding-top: 5px;
 }
 .page-footer {
+  margin: auto;
   background-color: #323232;
   height: 88px;
   width: 1600px;
