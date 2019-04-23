@@ -172,21 +172,22 @@ position: relative;
 }
 .container-products {
   width: 1110px;
+  text-align: center;
   margin: 0 auto;
   padding-top: 100px;
 }
-.page__title-wrapper {
+/* .page__title-wrapper {
   text-align: center;
   position: relative;
-}
+} */
 .page__title {
   font-family: "Roboto", sans-serif;
   font-size: 48px;
   line-height: 58px;
   font-weight: 800;
-  position: relative;
-  display: inline-block;
-  margin: auto;
+  /* position: relative; */
+  /* display: inline-block; */
+  margin: 0 auto;
   text-transform: uppercase;
   letter-spacing: -0.02em;
   color: #515151;
@@ -194,13 +195,13 @@ position: relative;
 }
 .page__title::after {
   display: block;
-  position: absolute;
+  /* position: absolute; */
   content: "";
   width: 165px;
   height: 7px;
   background-color: #7fd9c7;
-  margin: 28px auto;
-  left: 100px;
+  margin: 0 auto;
+  margin-top: 28px;
 }
 .products-list {
   list-style: none;
@@ -231,9 +232,9 @@ position: relative;
   background-color: #7fd9c7;
 }
 .products-list-item:hover .overlay {
-  opacity: .55;
+  opacity: 1;
   visibility: visible;
-  /* transition: visibility 0s linear 0s, opacity 300ms; */
+  transition: visibility 0s linear 0s, opacity 500ms;
 }
 .products-list-item:hover .product-icons-list{
   opacity: 1;
@@ -244,14 +245,15 @@ position: relative;
 .overlay {
   position: absolute;
   width: 255px;
-  border: 10px solid white;
+  border: 10px solid rgba(255, 255, 255, 0.7);
   height: 282px;
-  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.549);
   visibility: hidden;
   top: 0px;
   left: 0px;
-  /* opacity: 0;
-  transition: visibility 0s linear 300ms, opacity 300ms; */
+  background-clip: padding-box;
+  opacity: 0;
+  transition: visibility 0s linear 300ms, opacity 500ms;
 }
 
 .product-icons-list {
@@ -309,7 +311,7 @@ position: relative;
   background-position: 10px 10px;
   border: 1px solid rgb(255, 255, 255);
   background-color: rgb(50, 50, 50);
-  bottom: 125px;
+  bottom: 68px;
   left: 50%;
   transform: translate(-50%);
   opacity: 0;
