@@ -37,7 +37,8 @@
 .name{
     font-size: 30px;
     font-weight: 900;
-    transition: .3s;
+    transition: transform .5s linear, 
+                 color .5s linear;
 }
 .name:hover{
     transform: scale(1.15);
