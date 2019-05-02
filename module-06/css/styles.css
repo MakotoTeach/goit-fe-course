@@ -136,22 +136,22 @@ img {
   background-position: center;
 }
 .service-item:nth-child(1)::before {
-  background-image: url(/img/ALARM-icon.png);
+  background-image: url(../img/ALARM-icon.png);
 }
 .service-item:nth-child(2)::before {
-  background-image: url(/img/GRAPH-icon.png);
+  background-image: url(../img/GRAPH-icon.png);
 }
 .service-item:nth-child(3)::before {
-  background-image: url(/img/COMPUTER-icon.png);
+  background-image: url(../img/COMPUTER-icon.png);
 }
 .service-item:nth-child(4)::before {
-  background-image: url(/img/BOOK-icon.png);
+  background-image: url(../img/BOOK-icon.png);
 }
 .service-item:nth-child(5)::before {
-  background-image: url(/img/HOME-icon.png);
+  background-image: url(../img/HOME-icon.png);
 }
 .service-item:nth-child(6)::before {
-  background-image: url(/img/IMAGE-icon.png);
+  background-image: url(../img/IMAGE-icon.png);
 }
 .service-name {
   text-transform: uppercase;
