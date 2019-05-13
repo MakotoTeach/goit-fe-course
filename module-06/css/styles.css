@@ -193,6 +193,9 @@ img {
 
 .team-list-item:hover .overlay {
   opacity: 1;
+  visibility: visible;
+  transition: opacity .8s;
+  /* transition: visibility 1s linear 0s, opacity 2ms; */
 }
 .team-list-item img {
   margin-bottom: 26px;
@@ -212,12 +215,10 @@ img {
   top: -10px;
   left: -10px;
   opacity: 0;
+  /* transition: visibility 1s linear 1s, opacity 2s; */
   box-shadow: 10px 10px 0px 0px #95e1d3;
-  /* transition: box-shadow .3s linear; */
+  
 }
-/* .overlay:hover{
-    box-shadow: 10px 10px 0px 0px #95e1d3;
-  } */
 .team-list-socials {
   font-size: 0;
   width: 224px;
@@ -311,4 +312,11 @@ img {
   height: 40px;
   border: none;
   background-color: #95e1d3;
+  cursor: pointer;
+  transition: 1s;
+}
+.subscribe-button:hover{
+  transform: scale(1.1);
+  background-color: #28ccae;
+
 }

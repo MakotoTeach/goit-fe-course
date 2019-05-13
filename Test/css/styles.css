@@ -1,77 +1,40 @@
-.conteiner{ 
-    width: 400px;
-    height: 400px;
-    background-color: #424242;
-    position: relative;
+* {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+  font-family: "Muli", sans-serif;
+  font-size: 16px;
 }
-.box1{
-    width: 100px;
-    height: 100px;
-    background-color: blueviolet;
-    position: absolute;
+.profile-form {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px 0 5px 5px rgba(0, 0, 0, 0.5);
+  width: 500px;
+  margin: 100px auto;
+  padding: 20px;
 }
-.box2{
-    width: 100px;
-    height: 100px;
-    background-color: yellow;
-    position: absolute;
-    top: 0px;
-    left: 150px;
+.profile-form input {
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 2px solid rgb(56, 50, 55);
 }
-.box3{  
-    width: 100px;
-    height: 100px;
-    background-color: green;
-    top: 0;
-    left: 300px;
-    position: absolute;
+.profile-form input:focus {
+  outline: 0;
+  border-bottom: 3px solid rgb(107, 14, 110);
 }
-.box4{
-    width: 100px;
-    height: 100px;
-    background-color:palevioletred;
-    position: absolute;
-    top: 150px;
-    left: 0;
+.profile-form button {
+  background-color: rgb(149, 133, 155);
+  margin: 0 auto;
+  margin-top: 15px;
+  width: 300px;
 }
-.box5{
-    width: 100px;
-    height: 100px;
-    background-color:black;
-    position:absolute;
-    top: 150px; 
-    left: 150px;
-}
-.box6{  
-    width: 100px;
-    height: 100px;
-    background-color: rgb(228, 157, 5);
-    position: absolute;
-    top: 150px;
-    left: 300px;
+.profile-form button:focus {
+  outline: 0;
 }
 
-.box7{
-    width: 100px;
-    height: 100px;
-    background-color: rgb(34, 224, 183);
-    position: absolute;
-    top: 300px;
-    left: 0px;
+.screen-size-list input:checked+label{
+    color: rgb(177, 21, 164);
 }
-.box8{  
-    width: 100px;
-    height: 100px;
-    background-color: rgb(109, 7, 243);
-    position: absolute;
-    top: 300px;
-    left: 150px;
-}
-.box9{
-    width: 100px;
-    height: 100px;
-    background-color: rgb(5, 39, 230);
-    position: absolute;
-    top: 300px;
-    left: 300px;
+.theme_type_list input:checked+label{
+    color: rgb(9, 255, 0);
 }
