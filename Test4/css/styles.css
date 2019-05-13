@@ -1,0 +1,19 @@
+.singup-form{
+    display: flex;
+    flex-direction: column;
+    margin: 100px auto;
+    width: 600px;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+}
+.singup-form input{
+    border: none;
+    border-bottom: 2px solid darkcyan;
+}
+.singup-form button{
+    margin: 3px;
+}
+.singup-form input:focus{
+    outline: 0;
+    border-color: blueviolet;
+}
