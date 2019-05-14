@@ -314,9 +314,12 @@ img {
   background-color: #95e1d3;
   cursor: pointer;
   transition: 1s;
+              
 }
 .subscribe-button:hover{
   transform: scale(1.1);
   background-color: #28ccae;
-
+}
+.subscribe-button:focus{
+  background-color: #13977f;
 }
