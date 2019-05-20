@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+@font-face{
+    font-family: 'AnimalDesign';
+    src: url('../fonts/AnimalDesign.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+    
+}
+body{
+    widows: 100%;
+    height: 100%;
+    background: #666;
+}
+
+
+.button{
+    text-align: center;
+    margin: 200px auto;
+    font-family: 'Londrina Solid', cursive;
+    font-size: 50px;
+    display: block;
+    width: 400px;
+    height: 100px;
+    background: #014464;
+    background: linear-gradient(to bottom, #0D658E, #0c577A 50%, #014D71 51%, #003E5c);
+    line-height: 100px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid #368DBE;
+    border-top: 1px solid #c3d6df;
+    text-shadow: 1px 1px 2px black;
+    box-shadow: 0 1px 3px black;
+}
+.button::before{
+    font-family: 'AnimalDesign';
+    content: "m";
+    font-size: 90px;
+    float: left;
+    color: #09232f;
+    text-shadow: 0 1px 0 #4190af;
+    margin-left: 80px;
+    margin-right: -80px;
+
+}

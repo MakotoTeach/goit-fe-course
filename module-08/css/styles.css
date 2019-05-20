@@ -20,6 +20,32 @@
     margin: auto;
     /* padding: 0 10px; */
 }
+.site-name{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.headline{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.headline-descr{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 300;
+}
+.partners-headline{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #333333;
+}
 img{
     display: block;
     max-width: 100%;
@@ -38,11 +64,63 @@ img{
     border-radius: 50%;
     width: 32px;
     height: 32px;
-    background-color: #ff4e50;
-    background-image: url(../img/partner1-icon.png);
     background-position: center;
     background-repeat: no-repeat;
+}
+.partner-card:nth-child(1) .partner-picture::after{
+    background-color: #ff4e50;
+    background-image: url(../img/partner1-icon.png);
+}
+.partner-card:nth-child(2) .partner-picture::after{
+    background-color: #ffa507;
+    background-image: url(../img/partner2-icon.png);
+}
+.partner-card:nth-child(3) .partner-picture::after{
+    background-color: #1cd7ad;
+    background-image: url(../img/partner3-icon.png);
+}
+.partner-card:nth-child(4) .partner-picture::after{
+    background-color: #4e73db;
+    background-image: url(../img/partner4-icon.png);
 }
 .partner-list{
     list-style: none;
 }
+.log-in, .sing-in{
+    display: inline-block;
+    width: 90px;
+    height: 34px;
+    background: none;
+    outline: none;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;  
+    cursor: pointer;
+}
+.sing-in:focus{
+    border: 2px solid white;
+    border-radius: 50px;
+}
+.log-in:focus{
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+.find-partner{
+    display: inline-block;
+    width: 280px;
+    height: 40px;
+    background: #ff4e50;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;  
+    cursor: pointer;
+}
+
+  
