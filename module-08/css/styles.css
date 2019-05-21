@@ -3,48 +3,62 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-.wrapper{
+.wrapper-header{
     /* padding: 0 10px; */
     width: 320px;
+    height: 540px;
     margin: auto;
     background-image: url(../img/Background320px.png);
 }
 .container{
     width: 320px;
     margin: auto;
-    /* padding: 0 10px; */
-}
-.partners{
-    width: 320px;
-    margin: auto;
-    /* padding: 0 10px; */
+    padding: 20px 10px 0 10px;
+    text-align: center;
 }
 .site-name{
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
+    line-height: 24px;
     font-weight: 700;
     color: #ffffff;
     text-transform: uppercase;
+    /* margin-bottom: 24px; */
+}
+.header-top{
+    margin-bottom: 24px;
 }
 .headline{
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     font-weight: 700;
     color: #ffffff;
     text-transform: uppercase;
+    margin-bottom: 16px;
 }
 .headline-descr{
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: #ffffff;
     font-weight: 300;
+    padding: 0 40px;
+    margin-bottom: 16px;
+}
+.wrapper-partners{
+    /* width: 320px; */
+    margin: auto;
+    padding-top: 64px;
+    padding-bottom: 57px;
 }
 .partners-headline{
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 22px;
     font-weight: 700;
     color: #333333;
+    margin-bottom: 18px;
 }
 img{
     display: block;
@@ -52,7 +66,10 @@ img{
     height: auto;
 }
 .partner-picture{
+    display: inline-block;
     position: relative;
+    margin-bottom: 24px;
+    cursor: pointer;
 }
 .partner-picture::after{
     content: "";
@@ -85,6 +102,25 @@ img{
 }
 .partner-list{
     list-style: none;
+    margin-bottom: 38px;
+}
+.partner-card{
+    width: 220px;
+    text-align: center;
+    margin: auto;
+}
+.partner-name{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 20px;
+}
+.partner-info{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #666666;
+    font-weight: 300;
 }
 .log-in, .sing-in{
     display: inline-block;
@@ -107,9 +143,8 @@ img{
     border: 2px solid white;
     border-radius: 50px;
 }
-
 .find-partner{
-    display: inline-block;
+    display: block;
     width: 280px;
     height: 40px;
     background: #ff4e50;
@@ -121,6 +156,81 @@ img{
     font-weight: 700;
     color: #ffffff;  
     cursor: pointer;
+    margin: 0 auto;
 }
-
-  
+.other-partners{
+    display: block;
+    width: 280px;
+    height: 40px;
+    margin: 0 auto;
+    border: 2px solid #ff4e50;
+    border-radius: 50px;
+    color: #ff4e50;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+  @media (max-width: 767px){
+      .partner-card:not(:last-child){
+          margin-bottom: 30px;
+      }
+      .top-bottons{
+          text-align: center;
+          display: block;
+          margin: 0 auto;
+          margin-bottom: 120px;
+      }
+  }
+  @media (min-width: 768px){
+    .wrapper-header{
+        width: 768px;
+        height: 700px;
+        margin: auto;
+        background-color: #1a1915;
+        background-image: url(../img/Background768px.png);
+    }
+    .container{
+        width: 768px;
+        margin: auto;
+        padding: 20px 10px 0 10px;
+        text-align: center;
+    }
+    .header-top{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        padding: 0 40px;
+        margin-bottom: 156px;
+    }
+    .header-main{
+        width: 532px;
+        margin: 0 auto;
+    }
+    .site-name{
+        padding-top: 6px;
+    }
+    .headline{
+        font-size: 52px;
+    }
+    .headline-descr{
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+    .find-partner{
+        width: 225px;
+    }
+    .wrapper-partners{
+        width: 492px;
+        margin: 0 auto;
+    }
+    .partner-list{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .partner-card{
+        width: 236px;
+    }
+  }
