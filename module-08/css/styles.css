@@ -145,20 +145,6 @@ img {
   text-decoration: none;
   cursor: pointer;
 }
-/* .log-in,
-.sing-in {
-  display: inline-block;
-  width: 90px;
-  height: 34px;
-  background: none;
-  outline: none;
-  border: none;
-  font-family: "Montserrat", sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-  color: #ffffff;
-  cursor: pointer;
-} */
 .nav-link:focus{
   border: 2px solid white;
   border-radius: 50px;
@@ -168,14 +154,6 @@ img {
   display: flex;
   flex-direction: row;
 }
-/* .sing-in:focus {
-  border: 2px solid white;
-  border-radius: 50px;
-}
-.log-in:focus {
-  border: 2px solid white;
-  border-radius: 50px;
-} */
 .find-partner {
   display: block;
   width: 280px;
@@ -231,7 +209,6 @@ img {
 @media (min-width: 788px) {
   .wrapper-header {
     width: 768px;
-    /* margin: 0 auto; */
     height: 700px;
     background-color: #1a1915;
     background-image: url(../img/Background768px.png);
@@ -275,7 +252,6 @@ img {
   }
   .wrapper-partners {
     width: 532px;
-    /* margin: 0 auto; */
   }
   .partner-list {
     display: flex;
