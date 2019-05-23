@@ -196,6 +196,7 @@ img {
     transform: scale(1.2)
 }
 .other-partners {
+  display: block;
   width: 280px;
   height: 40px;
   margin: 0 auto;
