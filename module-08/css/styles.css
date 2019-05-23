@@ -24,7 +24,7 @@
   color: #ffffff;
   text-transform: uppercase;
 }
-.header-top {
+.site-nav {
   margin-bottom: 24px;
   padding-top: 10px;
 }
@@ -219,7 +219,7 @@ img {
     width: 532px;
     margin: 0 auto;
   }
-  .header-top {
+  .site-nav {
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
