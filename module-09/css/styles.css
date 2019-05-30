@@ -72,32 +72,30 @@ img {
   background-position: center;
   background-repeat: no-repeat;
 }
- .partner-card:nth-child(1) .partner-picture::after {
+.cards-list [class*="col-"]:nth-of-type(1) .partner-card .partner-picture::after {
   background-color: #ff4e50;
   background-image: url(../img/partner1-icon.png);
 }
-.partner-card:nth-child(2) .partner-picture::after {
+.cards-list [class*="col-"]:nth-of-type(2) .partner-card .partner-picture::after {
   background-color: #ffa507;
   background-image: url(../img/partner2-icon.png);
 }
-.partner-card:nth-child(3) .partner-picture::after {
+.cards-list [class*="col-"]:nth-of-type(3) .partner-card .partner-picture::after {
   background-color: #1cd7ad;
   background-image: url(../img/partner3-icon.png);
 }
-.partner-card:nth-child(4) .partner-picture::after {
+.cards-list [class*="col-"]:nth-of-type(4) .partner-card .partner-picture::after {
   background-color: #4e73db;
   background-image: url(../img/partner4-icon.png);
 }
-/* .partner-list {
-  list-style: none;
-  margin-bottom: 38px;
-  text-align: center;
-} */
+.cards-list{
+  margin-bottom: 40px;
+}
 .partner-card { 
   text-align: center;
 }
 .partner-card:hover .partner-picture{
-    transform: scale(1.3);
+    transform: scale(1.2);
 }
 .partner-name {
   font-family: "Montserrat", sans-serif;
@@ -173,14 +171,12 @@ img {
   background: none;
   cursor: pointer;
   transition: 1s;
+  margin-bottom: 40px;
 }
 .other-partners:hover{
     transform: scale(1.1);
 }
 @media (max-width: 767px) {
-  .partner-card:not(:last-child) {
-    margin-bottom: 30px;
-  }
   .site-name{
     margin-bottom: 30px;
   }
@@ -193,16 +189,14 @@ img {
     height: 700px;
     background-color: #1a1915;
   }
+  .site-name{
+    padding-top: 30px;
+  }
   .site-nav {
     display: flex;
     justify-content: space-around;
-    /* flex-direction: row-reverse; */
-    /* padding: 0 40px; */
     margin-bottom: 156px;
   }
-  /* .site-name {
-    padding-top: 6px;
-  } */
   .headline {
     font-size: 51.9px;
     margin-bottom: 26px;
@@ -224,11 +218,6 @@ img {
       margin-bottom: 36px;
   }
 }
-/* @media (min-width: 788px) and (max-width: 959px){
-    .partner-card:{
-        margin-bottom: 56px;
-    }
-} */
 @media (min-width: 960px){
 .wrapper-header{
     background-color: #1a1915;
