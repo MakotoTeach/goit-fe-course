@@ -35,6 +35,7 @@ background-repeat: no-repeat;
   font-size: 18px;
   color: #ffffff;
   font-weight: 300;
+  margin-bottom: 16px;
 }
 
 .partners-headline {
@@ -44,6 +45,7 @@ background-repeat: no-repeat;
   font-weight: 700;
   color: #333333;
   margin-bottom: 18px;
+  padding-top: 70px;
 }
 img {
   display: block;
@@ -135,6 +137,7 @@ img {
   display: flex;
   padding-top: 20px;
   justify-content: center;
+  margin-bottom: 110px;
 }
 .find-partner {
   display: block;
@@ -178,6 +181,12 @@ img {
   .partner-card:not(:last-child) {
     margin-bottom: 30px;
   }
+  .site-name{
+    margin-bottom: 30px;
+  }
+  .cards-list [class*="col-"]:not(:last-child) {
+    margin-bottom: 26px;
+  }
 }
 @media (min-width: 768px) {
   .wrapper-header {
@@ -191,9 +200,9 @@ img {
     /* padding: 0 40px; */
     margin-bottom: 156px;
   }
-  .site-name {
+  /* .site-name {
     padding-top: 6px;
-  }
+  } */
   .headline {
     font-size: 51.9px;
     margin-bottom: 26px;
