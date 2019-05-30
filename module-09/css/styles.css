@@ -127,7 +127,7 @@ img {
   cursor: pointer;
   border: 2px solid transparent;
 }
-.nav-link:focus{
+.nav-link:hover{
   border: 2px solid white;
   border-radius: 50px;
 }
