@@ -459,7 +459,7 @@
   font-weight: 300;
   font-style: italic;
 }
-.subscribe-button {
+.contact-form__button {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   color: white;
@@ -473,12 +473,12 @@
   -webkit-transition: 1s;
   transition: 1s;
 }
-.subscribe-button:hover {
+.contact-form__button:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
   background-color: #28ccae;
 }
-.subscribe-button:focus {
+.contact-form__button:focus {
   background-color: #13977f;
 }
 @media (-webkit-min-device-pixel-ratio: 2),
