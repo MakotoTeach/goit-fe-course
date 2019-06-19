@@ -1,0 +1,25 @@
+.overlay {
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(rgba(252, 227, 138, 0.93)),
+    to(rgba(243, 129, 129, 0.93))
+  );
+  background: linear-gradient(
+    to top,
+    rgba(252, 227, 138, 0.93),
+    rgba(243, 129, 129, 0.93)
+  );
+  width: 380px;
+  height: 470px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  opacity: 0;
+  -webkit-box-shadow: 10px 10px 0px 0px #95e1d3;
+  box-shadow: 10px 10px 0px 0px #95e1d3;
+}

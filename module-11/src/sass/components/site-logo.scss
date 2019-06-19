@@ -1,0 +1,43 @@
+.site-logo {
+  color: $main-white-color;
+  text-decoration: none;
+  display: inline-block;
+  -webkit-animation: logo-appear 1s linear;
+  animation: logo-appear 1s linear;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: $main-font-stack;
+}
+@-webkit-keyframes logo-appear {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-300px);
+    transform: translateX(-300px);
+  }
+  
+  50% {
+    opacity: 1; 
+    transform: translateX(0px); 
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes logo-appear {
+  0% {
+    opacity: 0;
+    transform: translateX(-300px);
+  }
+
+  50% {
+    opacity: 1;
+    transform: translateX(0px);
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

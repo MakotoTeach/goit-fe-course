@@ -1,0 +1,40 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 620px;
+  list-style: none;
+}
+
+.menu__item {
+  display: block;
+
+  &:hover:nth-child(-n + 5):after {
+    color: $main-accent-color;
+    width: 50px;
+  }
+
+  &:nth-child(-n + 5):hover a {
+    color: $main-accent-color;
+  }
+
+  &:nth-child(-n + 5):after {
+    display: block;
+    content: '';
+    width: 0px;
+    height: 3px;
+    background-color: $main-accent-color;
+    margin: 0 auto;
+    margin-top: 10px;
+    transition: width 0.3s linear;
+  }
+}
+
+.menu__item a {
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: $main-font-stack;
+  text-decoration: none;
+  color: $main-white-color;
+  text-transform: uppercase;
+}

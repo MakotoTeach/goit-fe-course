@@ -1,0 +1,104 @@
+.team-descr {
+  padding-left: 122px;
+  padding-right: 122px;
+  font-family: $descr-font-stack;
+  font-weight: 400;
+  font-size: 15px;
+  color: $main-gray-color;
+  padding-bottom: 96px;
+}
+
+.team-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.team-list_item {
+  width: 380px;
+  position: relative;
+
+  &:hover .overlay {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.8s;
+  }
+}
+
+.team-list_item img {
+  margin-bottom: 26px;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.team-list_socials {
+  font-size: 0;
+  width: 224px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.team-list_socials svg {
+  display: block;
+  width: 32px;
+  height: 32px;
+  fill: $main-pink-color;
+}
+
+.team-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  height: 55px;
+  background-color: $main-accent-color;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+.team-icon:hover {
+  background-color: $main-pink-color;
+}
+
+.team-icon:hover svg {
+  fill: $main-white-color;
+  -webkit-transition: 0.5s linear;
+  transition: 0.5s linear;
+}
+
+.icon-facebook {
+  background-image: url(../img/facebook-icon.png);
+}
+
+.icon-twitter {
+  background-image: url(../img/twitter-icon.png);
+}
+
+.icon-pinterest {
+  background-image: url(../img/pinterest-icon.png);
+}
+
+.icon-instagram {
+  background-image: url(../img/instagram-icon.png);
+}
+
+.teammate-name {
+  font-family: $main-font-stack;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: $main-dark-color;
+  margin-bottom: 16px;
+}
+
+.teammate-position {
+  font-family: $descr-font-stack;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 15px;
+  color: $main-gray-color;
+}

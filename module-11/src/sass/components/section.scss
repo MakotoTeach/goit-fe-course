@@ -1,0 +1,27 @@
+.section-headline::after {
+  display: block;
+  content: '';
+  width: 60px;
+  height: 3px;
+  background-color: $main-pink-color;
+  margin: 0 auto;
+  margin-top: 42px;
+}
+
+.section-label {
+  color: $main-dark-color;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: $secondary-font-stack;
+  margin-bottom: 10px;
+  padding-top: 50px;
+}
+
+.section-headline {
+  color: $main-dark-color;
+  font-family: $main-font-stack;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-bottom: 66px;
+}
