@@ -43,7 +43,7 @@
   text-transform: uppercase;
   font-weight: 700;
   font-family: $main-font-stack;
-  font-size: 14px;
+  font-size: $main-font-size;
   line-height: 34px;
   color: $main-white-color;
   transition: 0.3s linear;

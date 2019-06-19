@@ -11,7 +11,7 @@
   align-items: center;
   font-family: $main-font-stack;
   font-weight: 400;
-  font-size: 14px;
+  font-size: $main-font-size;
 }
 
 .page-footer__rights span {
@@ -26,7 +26,7 @@
 }
 
 .subscribe-input {
-  color: $main-pink-color;
+  color: $main-dark-color;
   width: 228px;
   height: 40px;
   font-family: $main-font-stack;
