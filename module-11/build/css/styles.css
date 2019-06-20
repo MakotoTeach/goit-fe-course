@@ -10,10 +10,8 @@
 
 html {
   line-height: 1.15;
-
   /* 1 */
   -webkit-text-size-adjust: 100%;
-
   /* 2 */
 }
 
@@ -48,13 +46,10 @@ h1 {
 
 hr {
   box-sizing: content-box;
-
   /* 1 */
   height: 0;
-
   /* 1 */
   overflow: visible;
-
   /* 2 */
 }
 
@@ -65,10 +60,8 @@ hr {
 
 pre {
   font-family: monospace, monospace;
-
   /* 1 */
   font-size: 1em;
-
   /* 2 */
 }
 
@@ -90,14 +83,11 @@ a {
 
 abbr[title] {
   border-bottom: none;
-
   /* 1 */
   text-decoration: underline;
-
   /* 2 */
   -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
-
   /* 2 */
 }
 
@@ -119,10 +109,8 @@ code,
 kbd,
 samp {
   font-family: monospace, monospace;
-
   /* 1 */
   font-size: 1em;
-
   /* 2 */
 }
 
@@ -180,16 +168,12 @@ optgroup,
 select,
 textarea {
   font-family: inherit;
-
   /* 1 */
   font-size: 100%;
-
   /* 1 */
   line-height: 1.15;
-
   /* 1 */
   margin: 0;
-
   /* 2 */
 }
 
@@ -200,7 +184,6 @@ textarea {
 
 button,
 input {
-
   /* 1 */
   overflow: visible;
 }
@@ -212,7 +195,6 @@ input {
 
 button,
 select {
-
   /* 1 */
   text-transform: none;
 }
@@ -222,9 +204,9 @@ select {
    */
 
 button,
-[type='button'],
-[type='reset'],
-[type='submit'] {
+[type="button"],
+[type="reset"],
+[type="submit"] {
   -webkit-appearance: button;
 }
 
@@ -233,9 +215,9 @@ button,
    */
 
 button::-moz-focus-inner,
-[type='button']::-moz-focus-inner,
-[type='reset']::-moz-focus-inner,
-[type='submit']::-moz-focus-inner {
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
@@ -245,9 +227,9 @@ button::-moz-focus-inner,
    */
 
 button:-moz-focusring,
-[type='button']:-moz-focusring,
-[type='reset']:-moz-focusring,
-[type='submit']:-moz-focusring {
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
@@ -268,22 +250,16 @@ fieldset {
 
 legend {
   box-sizing: border-box;
-
   /* 1 */
   color: inherit;
-
   /* 2 */
   display: table;
-
   /* 1 */
   max-width: 100%;
-
   /* 1 */
   padding: 0;
-
   /* 3 */
   white-space: normal;
-
   /* 1 */
 }
 
@@ -308,13 +284,11 @@ textarea {
    * 2. Remove the padding in IE 10.
    */
 
-[type='checkbox'],
-[type='radio'] {
+[type="checkbox"],
+[type="radio"] {
   box-sizing: border-box;
-
   /* 1 */
   padding: 0;
-
   /* 2 */
 }
 
@@ -322,8 +296,8 @@ textarea {
    * Correct the cursor style of increment and decrement buttons in Chrome.
    */
 
-[type='number']::-webkit-inner-spin-button,
-[type='number']::-webkit-outer-spin-button {
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
@@ -332,12 +306,10 @@ textarea {
    * 2. Correct the outline style in Safari.
    */
 
-[type='search'] {
+[type="search"] {
   -webkit-appearance: textfield;
-
   /* 1 */
   outline-offset: -2px;
-
   /* 2 */
 }
 
@@ -345,7 +317,7 @@ textarea {
    * Remove the inner padding in Chrome and Safari on macOS.
    */
 
-[type='search']::-webkit-search-decoration {
+[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -356,10 +328,8 @@ textarea {
 
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
-
   /* 1 */
   font: inherit;
-  
   /* 2 */
 }
 
@@ -438,7 +408,7 @@ template {
   font-size: 72px;
   line-height: auto;
   font-weight: 400;
-  font-family: 'Kaushan Script', cursive;
+  font-family: "Kaushan Script", cursive;
 }
 
 .page-header__headline {
@@ -446,7 +416,7 @@ template {
   margin: auto;
   margin-bottom: 120px;
   font-weight: 700;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 150px;
   line-height: 1;
   color: #ffffff;
@@ -464,7 +434,7 @@ template {
   border: 3px solid #ffffff;
   text-transform: uppercase;
   font-weight: 700;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   line-height: 34px;
   color: #ffffff;
@@ -485,7 +455,7 @@ template {
   animation: logo-appear 1s linear;
   font-size: 30px;
   font-weight: 600;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 @-webkit-keyframes logo-appear {
@@ -565,7 +535,7 @@ template {
   display: block;
   font-size: 14px;
   font-weight: 400;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-decoration: none;
   color: #ffffff;
   text-transform: uppercase;
@@ -585,14 +555,14 @@ template {
   color: #333333;
   font-size: 24px;
   font-weight: 400;
-  font-family: 'Kaushan Script', cursive;
+  font-family: "Kaushan Script", cursive;
   margin-bottom: 10px;
   padding-top: 50px;
 }
 
 .section-headline {
   color: #333333;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 30px;
   text-transform: uppercase;
   font-weight: 700;
@@ -654,7 +624,7 @@ template {
 .service-name {
   text-transform: uppercase;
   font-size: 14px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #333333;
   padding-bottom: 10px;
@@ -666,7 +636,7 @@ template {
 
 .service-descr {
   width: 270px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 15px;
   color: #999999;
@@ -675,7 +645,7 @@ template {
 .team-descr {
   padding-left: 122px;
   padding-right: 122px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 15px;
   color: #999999;
@@ -759,7 +729,7 @@ template {
 }
 
 .teammate-name {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 14px;
   text-transform: uppercase;
@@ -768,7 +738,7 @@ template {
 }
 
 .teammate-position {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-style: italic;
   font-size: 15px;
@@ -776,11 +746,7 @@ template {
 }
 
 .overlay {
-  background: linear-gradient(
-    to top,
-    rgba(252, 227, 138, 0.93),
-    rgba(243, 129, 129, 0.93)
-  );
+  background: linear-gradient(to top, rgba(252, 227, 138, 0.93), rgba(243, 129, 129, 0.93));
   width: 380px;
   height: 470px;
   justify-content: center;
@@ -804,7 +770,7 @@ template {
 .rights {
   display: flex;
   align-items: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 14px;
 }
@@ -824,14 +790,14 @@ template {
   color: #333333;
   width: 228px;
   height: 40px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   outline: none;
   border: 1px solid #e7e7e7;
 }
 
 .subscribe-input::-webkit-input-placeholder {
   color: #cccccc;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 15px;
   font-weight: 300;
   font-style: italic;
@@ -839,7 +805,7 @@ template {
 
 .subscribe-input:-ms-input-placeholder {
   color: #cccccc;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 15px;
   font-weight: 300;
   font-style: italic;
@@ -847,7 +813,7 @@ template {
 
 .subscribe-input::-ms-input-placeholder {
   color: #cccccc;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 15px;
   font-weight: 300;
   font-style: italic;
@@ -855,14 +821,14 @@ template {
 
 .subscribe-input::placeholder {
   color: #cccccc;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 15px;
   font-weight: 300;
   font-style: italic;
 }
 
 .contact-form__button {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   color: #ffffff;
   font-size: 14px;
@@ -883,4 +849,10 @@ template {
 
 .contact-form__button:focus {
   background-color: #13977f;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .wrapper {
+    background-image: url(../images/Wallpaper@2x.jpg);
+  }
 }
