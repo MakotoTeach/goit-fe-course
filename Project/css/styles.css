@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.wrapper-header {
+}
+
+.page-header {
+  width: 260px;
+  margin: 0 auto;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.site-logo {
+  display: inline-block;
+  padding-top: 26px;
+  margin-bottom: 30px;
+}
+
+.page-header_descr {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.page-header_headline {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 800;
+  color: #00eaff;
+  margin-bottom: 28px;
+}
+.page-header_meeting {
+  font-size: 14px;
+  font-weight: 600;
+  color: #f9ae23;
+}
+
+.page-header_date {
+  font-size: 20px;
+  font-weight: 800;
+  color: #f9ae23;
+}
+
+.form-headline{
+    font-size: 16px;
+    color: #000000;
+    font-weight: 800;
+}
+
+.form-descr{
+    font-size: 13px;
+    color: #000000;
+    font-weight: 600;
+}
+
+
+input[type='email'],
+input[type='text']{
+    width: 220px;
+    height: 40px;
+    display: block;
+    margin: auto;
+    
+}
