@@ -528,7 +528,7 @@ input[type="text"] {
 }
 
 .partners-list{
-  height: 600px;
+  /* height: 300px; */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -537,11 +537,10 @@ input[type="text"] {
 
 }
 .partner-item{
-  display: block;
-}
-.partner-item img{
   display: inline-block;
+  margin-bottom: 15px;
 }
+
 
 
 /* .section5-awards::after {
